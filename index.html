@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TollyClient — Minecraft 1.21.11 · Fabric</title>
+  <meta name="description" content="TollyClient — клиент для Minecraft 1.21.11 на Fabric. Скачать jar, установка в три шага." />
+  <meta name="theme-color" content="#0a0604" />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <header class="top">
+    <a href="#top" class="brand" aria-label="TollyClient">
+      <img src="assets/logo.png" alt="" />
+      <span>Tolly<span>Client</span></span>
+    </a>
+    <a class="btn btn-sm" href="downloads/TollyClient-1.21.11-v1.12.jar" download>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+      Скачать
+    </a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="logo-wrap">
+        <div class="logo-glow"></div>
+        <img src="assets/logo.png" alt="Логотип TollyClient" class="logo" />
+      </div>
+
+      <h1>Tolly<span>Client</span></h1>
+      <p class="lead">Клиент для Minecraft 1.21.11 на Fabric. Чистый HUD, утилиты и темы в одном меню.</p>
+
+      <div class="actions">
+        <a class="btn btn-primary btn-lg" href="downloads/TollyClient-1.21.11-v1.12.jar" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+          Скачать клиент
+        </a>
+        <a class="btn btn-ghost btn-lg" href="https://t.me/TollyWorldq" target="_blank" rel="noopener">
+          Telegram
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <ul class="meta">
+        <li><b>1.21.11</b><span>Minecraft</span></li>
+        <li><b>Fabric</b><span>загрузчик</span></li>
+        <li><b>21.0 МБ</b><span>размер jar</span></li>
+      </ul>
+    </section>
+
+    <section class="install" aria-labelledby="install-title">
+      <h2 id="install-title">Установка</h2>
+      <ol class="steps">
+        <li>
+          <span class="num">01</span>
+          <div>
+            <h3>Fabric</h3>
+            <p>Установи Fabric Loader 0.18.1+ для 1.21.11.</p>
+          </div>
+        </li>
+        <li>
+          <span class="num">02</span>
+          <div>
+            <h3>Моды</h3>
+            <p>Положи jar и Fabric API в <code>.minecraft/mods</code>.</p>
+          </div>
+        </li>
+        <li>
+          <span class="num">03</span>
+          <div>
+            <h3>Запуск</h3>
+            <p>Открой игру и настрой клиент в меню.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="file">
+        <div class="file-info">
+          <img src="assets/logo.png" alt="" />
+          <div>
+            <b>TollyClient-1.21.11-v1.12.jar</b>
+            <span>Fabric · Minecraft 1.21.11 · Java 21</span>
+          </div>
+        </div>
+        <button class="btn btn-ghost btn-sm" id="copySha" data-sha="904707b8b45ad1e26a5e5eb22dffd55a56bba1f2d2228e7c70b9c7013047fdce">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+          <span>SHA-256</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© <span id="year">2026</span> TollyClient</span>
+    <span>Не связан с Mojang AB или Microsoft.</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
